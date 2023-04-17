@@ -1,0 +1,4 @@
+let digito = "a*b"
+let numero = "digito*"
+let letra = "a?b+a"
+let identificador = "letra+digito|letra"

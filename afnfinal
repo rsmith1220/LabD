@@ -1,0 +1,101 @@
+digraph {
+	rankdir=LR
+	0 [label=0 shape=circle]
+	1
+	2
+	3
+	4
+	5
+	6
+	7
+	8
+	9
+	10
+	11
+	12
+	13
+	14
+	15
+	16
+	17
+	18
+	19
+	20
+	21
+	22
+	23
+	24
+	25
+	26
+	27
+	28
+	29
+	30
+	31
+	32
+	33
+	34
+	35
+	36
+	37
+	38
+	39
+	40 [shape=doublecircle]
+	0 -> 1 [label=a]
+	1 -> 2 [label="ε"]
+	1 -> 4 [label="ε"]
+	2 -> 3 [label=a]
+	3 -> 2 [label="ε"]
+	3 -> 4 [label="ε"]
+	4 -> 5 [label=b]
+	5 -> 6 [label=a]
+	6 -> 7 [label="ε"]
+	6 -> 9 [label="ε"]
+	7 -> 8 [label=a]
+	8 -> 7 [label="ε"]
+	8 -> 9 [label="ε"]
+	9 -> 10 [label="ε"]
+	9 -> 12 [label="ε"]
+	10 -> 11 [label=b]
+	11 -> 10 [label="ε"]
+	11 -> 12 [label="ε"]
+	12 -> 13 [label="ε"]
+	12 -> 15 [label="ε"]
+	13 -> 14 [label=a]
+	15 -> 16 [label=b]
+	16 -> 17 [label="ε"]
+	16 -> 19 [label="ε"]
+	17 -> 18 [label=b]
+	18 -> 17 [label="ε"]
+	18 -> 19 [label="ε"]
+	19 -> 20 [label=c]
+	14 -> 21 [label="ε"]
+	20 -> 21 [label="ε"]
+	21 -> 22 [label="ε"]
+	21 -> 32 [label="ε"]
+	22 -> 23 [label="ε"]
+	22 -> 25 [label="ε"]
+	23 -> 24 [label=a]
+	25 -> 26 [label=b]
+	26 -> 27 [label="ε"]
+	26 -> 29 [label="ε"]
+	27 -> 28 [label=b]
+	28 -> 27 [label="ε"]
+	28 -> 29 [label="ε"]
+	29 -> 30 [label=c]
+	24 -> 31 [label="ε"]
+	30 -> 31 [label="ε"]
+	32 -> 33 [label=a]
+	33 -> 34 [label="ε"]
+	33 -> 36 [label="ε"]
+	34 -> 35 [label=a]
+	35 -> 34 [label="ε"]
+	35 -> 36 [label="ε"]
+	36 -> 37 [label="ε"]
+	36 -> 39 [label="ε"]
+	37 -> 38 [label=b]
+	38 -> 37 [label="ε"]
+	38 -> 39 [label="ε"]
+	31 -> 40 [label="ε"]
+	39 -> 40 [label="ε"]
+}
