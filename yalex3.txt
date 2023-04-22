@@ -1,0 +1,7 @@
+(* Ejemplo básico *)
+
+let digito = "2|1"
+let letra = "a|b"
+
+for a = b
+    b|a

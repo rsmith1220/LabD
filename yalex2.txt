@@ -1,0 +1,6 @@
+let digito = "a+b"
+let letra = "a|b+c"
+IF a = b
+for a = b
+While b = a
+

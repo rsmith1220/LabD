@@ -1,0 +1,23 @@
+* --> operador kleene
+Ejemplo --> variable asignada
+básico --> variable asignada
+* --> operador kleene
+let --> identificador
+digito --> variable asignada
+= --> operador de asignacion
+2 --> numero
+| --> operador or
+1 --> numero
+let --> identificador
+letra --> identificador
+= --> operador de asignacion
+a --> letra
+| --> operador or
+b --> letra
+for --> FOR
+a --> variable asignada
+= --> operador de asignacion
+b --> variable asignada
+b --> letra
+| --> operador or
+a --> letra
