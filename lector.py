@@ -1,13 +1,13 @@
 tokens={}
 numeros=['1','2','3','4','5','6','7','8','9','0','-1','-2','-3','-4','-5','-6','-7','-8','-9']
-operadores=["*","+","|","?"]
+operadores=["*","+","|","?","^"]
 variables =['var','let']
 noentra=['@','!','&','%','$','#','[]']
 abece=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','r','s','t','u','v','w','x','y','z']
 filita=1
+open('resultado.txt','w')
 
-
-with open('yalex3.txt', 'r') as file:
+with open('yalex1.txt', 'r') as file:
     for line in file:
         text=line
         inside_block_comment = False  # flag to keep track of whether we're inside a block comment or not
@@ -16,6 +16,11 @@ with open('yalex3.txt', 'r') as file:
             tickets = line.split()
             # print(tickets)
             for token in tickets:
+                for i in noentra:
+                    if i in text:
+                        print("\n!!!!!!!!\nerror en la linea ",filita," no se puede identificar el token",i,'\n')
+                        f.write(i+' --> error\n')
+
                 if any(op in token for op in operadores):
                     for char in  token:
                         if char in abece:
@@ -53,7 +58,7 @@ with open('yalex3.txt', 'r') as file:
 
 
                 # aqui verifica si es un comentario
-                elif line.startswith("/*"):
+                elif line.startswith("/*") or line.startswith("(*"):
                     if inside_block_comment:
                         #si estamos en un bloque de comentario, revisar si alli termina o sigue
                         if '*/' in line and inside_block_comment or '*)' in line and inside_block_comment:

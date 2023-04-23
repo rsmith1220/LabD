@@ -1,23 +1,13 @@
-* --> operador kleene
-Ejemplo --> variable asignada
-básico --> variable asignada
-* --> operador kleene
-let --> identificador
-digito --> variable asignada
-= --> operador de asignacion
 2 --> numero
-| --> operador or
-1 --> numero
-let --> identificador
-letra --> identificador
-= --> operador de asignacion
-a --> letra
-| --> operador or
-b --> letra
-for --> FOR
-a --> variable asignada
-= --> operador de asignacion
-b --> variable asignada
-b --> letra
-| --> operador or
-a --> letra
+4 --> numero
++ --> operador de suma
+4 --> numero
+8 --> numero
+2.5+8 --> numero decimal
+2.5+8 --> numero decimal
+2.5+8 --> numero decimal
++ --> operador de suma
+2.5+8 --> numero decimal
+5 --> numero
+^ --> operador de potencia
+8 --> numero
